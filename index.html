@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link css -->
+    <link rel="stylesheet" href="style.css">
+    <title>Digital Clock</title>
+
+</head>
+
+<body>
+    <main class="card">
+        <h1 class="time" id="clock" role="timer" aria-label="Current time">
+            <span id="time">00:00:00</span>
+            <span class="period" id="period"></span>
+        </h1>
+        <p class="date" id="date">Loading date…</p>
+        <p class="zone" id="zone"></p>
+
+        <div class="controls">
+            <button class="btn-primary" id="toggleTheme" type="button">Switch to light mode</button>
+            <button class="btn-secondary" id="toggleFormat" type="button">Use 24-hour format</button>
+        </div>
+    </main>
+
+
+    <!-- js link -->
+    <script src="script.js"></script>
+</body>
+
+</html>
