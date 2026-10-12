@@ -14,7 +14,7 @@ A simple and responsive Digital Clock built using **HTML, CSS, and JavaScript**.
 - CSS3
 - JavaScript
 
-## Live demo [ ] 
+## Live demo [ https://code-with-alia.github.io/digital_clock/] 
 
 ## 🎯 Purpose
 This project was created to practice JavaScript fundamentals, time and date functions, and DOM manipulation while improving frontend development skills.
